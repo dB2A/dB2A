@@ -201,12 +201,17 @@ nav li a:hover {
 }
 
 #next-concert a.participate {
+display:block;
+
+width: 180px;
+height: 40px;
 
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#225E97), to(#3798F5));
 	background-image: -moz-linear-gradient(19% 75% 90deg,#225E97, #3798F5);
 
-	padding: 20px 40px;
+	padding: 20px 0 0 0;
 	text-align: center;
+	
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
@@ -219,7 +224,6 @@ nav li a:hover {
 	text-shadow: 1px 1px 1px #333;
 	
 	text-decoration: none;
-	line-height: 100px;
 	
 	-webkit-transition: all .1s ease-in-out;
 	-moz-transition: all .1s ease-in-out;
