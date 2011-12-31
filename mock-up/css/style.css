@@ -249,6 +249,9 @@ h1.block-head {
 	color: #00a020;
 }
 
+#news {
+	margin-bottom: 50px;
+}
 #news time {
 	font: normal 18px "BebasNeueRegular", Verdana, sans-serif;
 	color: #CCC;
@@ -257,6 +260,12 @@ h1.block-head {
 	text-transform: uppercase;
 }
 
+.read-more {
+	font: normal 12px "SansationBold", Verdana, sans-serif;
+	color: #FFF;
+	text-decoration: none;
+	float: right;
+}
 
 h1.box-head {
 	font: normal 24px "BoycottRegular", Georgia, serif;
