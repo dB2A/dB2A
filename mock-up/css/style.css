@@ -115,7 +115,7 @@
 
 }
 body {
-	background: url('../img/bg-left.jpg') no-repeat -512px top fixed, url('../img/bg-right.jpg') no-repeat 1315px top fixed;
+	background: url('../img/background.jpg') no-repeat center top fixed;
 	background-color: #000;
 }
 
@@ -185,13 +185,14 @@ nav li a:hover {
 #next-concert h1 {
 	font: normal 48px "BoycottRegular", Verdana, sans-serif;	
 	color: #3798F5;
-	text-shadow: 5px 5px 6px #000;
+	text-shadow: 2px 2px 10px #444;
 	margin-bottom: 0px;
 }
 
 #next-concert h2 {
 	font: normal 36px "BoycottRegular", Verdana, sans-serif;	
 	color: rgba(255,255,255,0.8);
+	text-shadow: 2px 2px 10px #444;
 }
 
 #next-concert p, #news p {
