@@ -301,4 +301,27 @@ h1.box-head {
 	text-transform: uppercase;
 }
 
+#primary-foot {
+	background: rgba(255, 255, 255, .1);
+	border-left: 1px solid #d2d2c4;
+	border-top: 1px solid #d2d2c4;
+	border-right: 1px solid #d2d2c4;
+	padding: 5px;
+}
 
+#history {
+	float: left;
+	width: 400px;
+	height: 150px;
+	background: url(../images/history.png) no-repeat top left;
+	opacity: .85;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000;
+	margin-right: 15px;
+}
+
+#history p {
+	font: normal 12px "SansationBold", Verdana, sans-serif;
+	color: #FFF;
+	text-align: justify;
+}
