@@ -120,54 +120,46 @@ body {
 	background-color: #000;
 }
 
-#logo {
-	opacity: 0.75;
-	transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-webkit-transition: all 0.2s ease-in-out;
+#logo p{
+	font: normal 72px "BoycottRegular", Verdana, sans-serif;
+	color: #FFFFFF;
 }
 
-#logo:hover {
-	opacity: 1.0;
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-	transform: scale(1.1);
-}
-
-nav {
+nav#main {
 	width: 100%;
 	height: 28px;
 	margin-top: 10px;
 	margin-bottom: 20px;
 	padding-top: 14px;
-	font: bold 13px "DroidSansBold", Verdana, sans-serif;
+	font: bold 13px "SansationBold", Verdana, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#111), to(#222));
+	background-image: -moz-linear-gradient(19% 75% 90deg,#222, #111);
+	-webkit-box-shadow: 0 1px 1px #444;
+	-moz-box-shadow: 0 1px 1px #444;
+	box-shadow: 0 1px 1px #444;
 }
 
-nav ul li {
+nav#main ul li {
 	display: inline;
 	padding-left: 1px;
 }
 
-nav li a {
+nav#main li a {
 	padding: 5px 10px;
 	color: #FFFFFF;
-	-webkit-border-radius: 7px;
-	-moz-border-radius: 7px;
-	border-radius: 7px;
-	box-shadow: 1px 1px 7px #000;
-	-webkit-text-shadow: 1px 1px #AAA;
-	-moz-text-shadow: 1px 1px 0 #AAA;
-	text-shadow: 1px 1px 0 #AAA;
 	text-decoration: none;
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
-	-o-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out;
+	-webkit-transition: background .3s ease-in-out;
+	-moz-transition: background .3s ease-in-out;
+	-o-transition: background .3s ease-in-out;
+	transition: background .3s ease-in-out;
 }
 
-nav li a:hover {
+nav#main li a:hover {
 	color: #215e97;
 	background: #efefe9;
 }
@@ -302,11 +294,24 @@ h1.box-head {
 }
 
 #primary-foot {
-	background: rgba(255, 255, 255, .1);
 	border-left: 1px solid #d2d2c4;
 	border-top: 1px solid #d2d2c4;
-	border-right: 1px solid #d2d2c4;
-	padding: 5px;
+	border-right: 1px solid #d2d2c4;	
+	margin-top: 20px;
+	padding: 10px;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#111), to(#000));
+	background-image: -moz-linear-gradient(19% 75% 90deg,#000, #111);
+	float: left;
+}
+
+#primary-foot h1.block-head {
+	font: normal 20px "BebasNeueRegular", Verdana, sans-serif;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
 }
 
 #history {
@@ -324,4 +329,8 @@ h1.box-head {
 	font: normal 12px "SansationBold", Verdana, sans-serif;
 	color: #FFF;
 	text-align: justify;
+}
+
+#history:hover h1.block-head {
+	color: #00a020;
 }
