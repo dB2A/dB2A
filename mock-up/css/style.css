@@ -114,6 +114,7 @@
     font-style: normal;
 
 }
+
 body {
 	background: url('../img/background.jpg') no-repeat center top fixed;
 	background-color: #000;
@@ -242,22 +243,19 @@ nav li a:hover {
 	transform: translate(5px, 5px);
 }
 
-#news h1 {
+h1.block-head {
 	font: normal 48px "BebasNeueRegular", Verdana, sans-serif;
-	color: #FFF;
 	margin-bottom: 0px;
+	color: #FFFFFF;
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
 }
 
-#news header a {
-	color: #FFF;
-	text-decoration: none;
+#news:hover h1.block-head {
+	color: #00a020;
 }
-
-#news header a:hover {
-	color: #3798F5;
-}
-
-
 
 #news time {
 	font: normal 18px "BebasNeueRegular", Verdana, sans-serif;
@@ -274,6 +272,14 @@ h1.box-head {
 	border-bottom: 1px solid #ecece9;
 	width: 270px;
 	text-align: left;
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+}
+
+#support:hover h1.box-head, #contact:hover h1.box-head, #tweets:hover h1.box-head {
+	color: #3798F5;
 }
 
 /***** TWEETS *****/
@@ -294,3 +300,5 @@ h1.box-head {
 	color: #98988c;
 	text-transform: uppercase;
 }
+
+
